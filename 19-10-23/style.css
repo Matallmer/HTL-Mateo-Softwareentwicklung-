@@ -13,9 +13,26 @@ body {
   text-decoration: none;
   padding: 15px 10px;
 }
+.news {
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+  color: white;
+}
+.ORF {
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+}
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, auto);
-  margin: 500px;
+  grid-template-areas:
+    "Foto1 Foto2 Foto3 Foto4"
+    "Foto1 Foto5 Foto4";
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
