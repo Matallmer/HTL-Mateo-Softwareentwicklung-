@@ -1,0 +1,51 @@
+<style > body a:hover {
+  text-decoration: underline;
+}
+p {
+  color: rgb(250, 252, 252);
+  font-family: verdana;
+  font-size: 20px;
+}
+body {
+  background-image: url("Bild.jpg");
+}
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h3 {
+  color: rgb(12, 12, 12);
+  text-decoration: underline;
+  margin-left: 16px;
+}
+h2 {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  margin-left: 16px;
+}
+h1 {
+  color: rgb(236, 127, 10);
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: rgb(201, 201, 67);
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: small;
+}
+a:hover {
+  text-decoration: underline;
+}
+.topnav {
+  display: flex;
+  justify-content: right;
+}
+.start {
+  display: flex;
+  justify-content: center;
+}
+.überschrift {
+  display: flex;
+  justify-content: left;
+}
