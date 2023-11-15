@@ -8,6 +8,13 @@ body {
   margin-left: 50px;
   margin-right: 50px;
 }
+.Wetter {
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-right: 200px;
+}
+
 .navbar a {
   color: white;
   text-decoration: none;
@@ -15,9 +22,10 @@ body {
 }
 .news {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   margin-left: 200px;
-  color: white;
+  margin-right: 700px;
+  font-size: larger;
 }
 .ORF {
   display: flex;
@@ -26,13 +34,72 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(2, auto);
+  justify-content: flex-start;
+  margin-left: 150px;
+  grid-template-columns: 198px 155px 115px 198px 190px;
+
+  grid-template-rows: 155px 150px;
   grid-template-areas:
-    "Foto1 Foto2 Foto3 Foto4"
-    "Foto1 Foto5 Foto4";
-  margin-right: 100px;
-  margin-left: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+    "israel flieger flieger Mann Scheich"
+    "israel formel1 Tisch Tisch Scheich ";
+}
+.israel {
+  grid-area: israel;
+}
+.Tisch {
+  grid-area: Tisch;
+}
+.flieger {
+  grid-area: flieger;
+}
+.Scheich {
+  grid-area: Scheich;
+}
+.formel1 {
+  grid-area: formel1;
+}
+.Mann {
+  grid-area: Mann;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(35, 32, 32);
+  font-size: xx-large;
+}
+span {
+  color: white;
+  font-size: x-large;
+}
+p {
+  color: black;
+  font-size: large;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 355px;
+  transform: translate(-50%, -50%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-bottom: 350px;
+}
+.dropdown:hover span {
+  display: block;
+  margin-bottom: 500px;
+}
+.dropdown {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.dropdown span {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
 }
