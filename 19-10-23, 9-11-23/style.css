@@ -26,6 +26,7 @@ body {
   margin-left: 200px;
   margin-right: 700px;
   font-size: larger;
+  color: white;
 }
 .ORF {
   display: flex;
@@ -71,7 +72,7 @@ span {
   color: white;
   font-size: x-large;
 }
-p {
+article p {
   color: black;
   font-size: large;
 }
